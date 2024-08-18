@@ -76,8 +76,10 @@ p{
     
 }
 } /*final responsivo min 700 max 1400px*/ 
+
 /* Comienzo responsive*/
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 759px){
+
 body {
   font-size: 11px;
 }
